@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MyMusicController.numberOfSections(in : UITableView) -&gt; Int:MyMusicController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_musicPlayer!.tracks.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static Global.user_id.getter:Global.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.value(forKey: &quot;user_id&quot;) as String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MusicPlayer.nextSong(songFinishedPlaying : Bool) -&gt; ():MusicPlayer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.musicPlayer.tracks[2].title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlayerController.blurEffect() -&gt; ():PlayerController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "backgroundImage.subviews.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.vkSdkAccessAuthorizationFinished(with : VKAuthorizationResult!) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "result.user ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlayerController.updateViews() -&gt; ():PlayerController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "playButtonOutlet">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyMusicController.tableView(UITableView, didSelectRowAt : IndexPath) -&gt; ():MyMusicController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.musicPlayer?.currentTrack.id">
+            </PersistentString>
+            <PersistentString
+               value = "_musicPlayer!.currentTrack.id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlayerController.loadPoster() -&gt; ():PlayerController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.musicPlayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyMusicController.tableView(UITableView, commit : UITableViewCellEditingStyle, forRowAt : IndexPath) -&gt; ():MyMusicController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.musicPlayer.tracks">
+            </PersistentString>
+            <PersistentString
+               value = "self._musicPlayer!.tracks">
+            </PersistentString>
+            <PersistentString
+               value = "tableView.numberOfSections">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyMusicController.loadSongs() -&gt; ():MyMusicController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.user_id">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PlayerController.viewDidLoad() -&gt; ():PlayerController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.musicPlayer.tracks">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyMusicController.refresh() -&gt; ():MyMusicController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "_musicPlayer">
+            </PersistentString>
+            <PersistentString
+               value = "results[0]">
+            </PersistentString>
+            <PersistentString
+               value = "uiRealm.objects(AudioTrack)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.(loginButton(UIButton) -&gt; ()).(closure #1):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.result">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyMusicController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:MyMusicController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "player.tracks[0].title">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MusicPlayer.queueTrack() -&gt; ():MusicPlayer.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "player.status">
+            </PersistentString>
+            <PersistentString
+               value = "currentTrack.title">
+            </PersistentString>
+            <PersistentString
+               value = "Global.musicPlayer">
+            </PersistentString>
+            <PersistentString
+               value = "AVAsset(url: URL(fileURLWithPath: tracks[_currentTrackIndex].url))">
+            </PersistentString>
+            <PersistentString
+               value = "playerItem">
+            </PersistentString>
+            <PersistentString
+               value = "URL(fileURLWithPath: tracks[_currentTrackIndex].url)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static API.Audio.(get(owner_id : Int, requestEnd : ([AudioTrack]) -&gt; ()) -&gt; ()).(closure #1):API.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "response.result.value">
+            </PersistentString>
+            <PersistentString
+               value = "Global.currentTypeOfCenter.rawValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyMusicController.(tableView(UITableView, commit : UITableViewCellEditingStyle, forRowAt : IndexPath) -&gt; ()).(closure #1):MyMusicController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "Global.musicPlayer.tracks[2].title">
+            </PersistentString>
+            <PersistentString
+               value = "self._musicPlayer!.tracks">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

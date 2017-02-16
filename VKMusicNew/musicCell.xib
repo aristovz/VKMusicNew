@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="60" id="KGk-i7-Jjw" customClass="musicCell" customModule="VKMusicNew" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Always In My Head" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qb9-jP-zdU">
+                        <rect key="frame" x="56" y="10" width="261" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="ej6-nT-LDX">
+                        <rect key="frame" x="16" y="21" width="26" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="26" id="yGh-CK-3Wo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coldplay - Ghost Stories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UV-bF-RBp">
+                        <rect key="frame" x="56" y="30" width="261" height="18"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3:36" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vbu-Q1-WDz">
+                        <rect key="frame" x="337" y="21" width="30" height="18"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v90-qS-NJG">
+                        <rect key="frame" x="17" y="18" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="fHG-9U-PDW"/>
+                            <constraint firstAttribute="width" secondItem="v90-qS-NJG" secondAttribute="height" multiplier="1:1" id="tft-N0-G6G"/>
+                        </constraints>
+                        <inset key="contentEdgeInsets" minX="2" minY="2" maxX="2" maxY="2"/>
+                        <state key="normal" image="heartNoSelected"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ej6-nT-LDX" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="4gf-LT-rBZ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Qb9-jP-zdU" secondAttribute="trailing" constant="50" id="Ecy-Js-win"/>
+                    <constraint firstItem="ej6-nT-LDX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="J6h-uj-K4L"/>
+                    <constraint firstItem="3UV-bF-RBp" firstAttribute="leading" secondItem="Qb9-jP-zdU" secondAttribute="leading" id="bRD-Kr-Kju"/>
+                    <constraint firstItem="v90-qS-NJG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="9" id="cIC-hp-ewU"/>
+                    <constraint firstAttribute="topMargin" secondItem="Qb9-jP-zdU" secondAttribute="top" constant="-2" id="dKj-52-rMK"/>
+                    <constraint firstItem="3UV-bF-RBp" firstAttribute="top" secondItem="Qb9-jP-zdU" secondAttribute="bottom" id="eG3-AC-dWf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Vbu-Q1-WDz" secondAttribute="trailing" id="ful-8B-DL5"/>
+                    <constraint firstItem="Vbu-Q1-WDz" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hJr-45-3JT"/>
+                    <constraint firstItem="Qb9-jP-zdU" firstAttribute="leading" secondItem="ej6-nT-LDX" secondAttribute="trailing" constant="14" id="inV-YK-sIn"/>
+                    <constraint firstItem="3UV-bF-RBp" firstAttribute="trailing" secondItem="Qb9-jP-zdU" secondAttribute="trailing" id="l4D-i1-8q3"/>
+                    <constraint firstItem="v90-qS-NJG" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="tQY-SL-AEd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="0.029999999999999999" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="artistLabel" destination="3UV-bF-RBp" id="kGq-R6-MvZ"/>
+                <outlet property="downloadButtonOutlet" destination="v90-qS-NJG" id="bvg-e1-Ke2"/>
+                <outlet property="durationLabel" destination="Vbu-Q1-WDz" id="OzM-I8-uQl"/>
+                <outlet property="numLabel" destination="ej6-nT-LDX" id="fBN-GC-f0W"/>
+                <outlet property="titleLabel" destination="Qb9-jP-zdU" id="Ftm-yG-HYF"/>
+            </connections>
+            <point key="canvasLocation" x="274.5" y="301"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="heartNoSelected" width="22" height="22"/>
+    </resources>
+</document>
