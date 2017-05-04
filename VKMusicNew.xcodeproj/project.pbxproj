@@ -289,7 +289,7 @@
 				TargetAttributes = {
 					2F7393121E1BC95E00929DB5 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = Z76ZV82BGX;
+						DevelopmentTeam = DSX6W75YR7;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -577,11 +577,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = Z76ZV82BGX;
+				DEVELOPMENT_TEAM = DSX6W75YR7;
 				INFOPLIST_FILE = VKMusicNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aristovpavel.VKMusicNew2;
+				PRODUCT_BUNDLE_IDENTIFIER = aristovpavel.VKMusicNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -593,11 +593,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = Z76ZV82BGX;
+				DEVELOPMENT_TEAM = DSX6W75YR7;
 				INFOPLIST_FILE = VKMusicNew/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = aristovpavel.VKMusicNew2;
+				PRODUCT_BUNDLE_IDENTIFIER = aristovpavel.VKMusicNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

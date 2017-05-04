@@ -23,6 +23,8 @@ class AuthorizationController: UIViewController, UIWebViewDelegate {
         
         let url = URL(string: "http://oauth.vk.com/authorize?client_id=\(Global.appID)&scope=friends,audio,offline&redirect_uri=http://api.vk.com/blank.html&display=page&response_type=token&v=\(Global.currentVersion)")!
         
+        //"https://oauth.vk.com/token?grant_type=password&2fa_supported=1&client_id=3697615&client_secret=AlVXZFMUqyrnABp8ncuU&scope=audio,wall,friends,groups,offline,status&v=5.63&password=\(password)&username=\(username)")
+        
         let request = URLRequest(url: url)
         webView.loadRequest(request)
         

@@ -14,7 +14,7 @@ import RealmSwift
 class Global {
     static let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
-    static let appID = "3087106"
+    static let appID = "2685278"
     
     static let currentVersion = "5.60"
     
